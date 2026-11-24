@@ -160,7 +160,7 @@ export const workPhotos = [
 // Reviews supplied by Josh. The last row is still a PLACEHOLDER: replace it with a real review (Google / TikTok / Instagram).
 export type Review = { name: string; text: string; detail?: string; placeholder?: boolean };
 export const reviews: Review[] = [
-  { name: "Marcus D.", text: "Fast mobile mechanic, showed up same day and fixed my battery at my house.", detail: "Battery service" },
+  { name: "Marcus D.", text: "Fast mobile mechanic, showed up same day and fixed my battery at my house."},
   { name: "Ashley T.", text: "Very professional and honest pricing. Booking was easy and smooth." },
   { name: "Customer name", text: "Placeholder: a real review about how easy booking was.", detail: "Service, Area", placeholder: true },
 ];
