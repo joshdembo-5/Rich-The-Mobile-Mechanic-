@@ -142,8 +142,8 @@ export default function Home() {
               <Reveal className={`${wrap} grid gap-4 py-9 md:grid-cols-[260px_1fr] md:gap-12 md:py-12`}>
                 <div>
                   <Stars />
-                  <p className="mt-3 text-lg font-semibold">{r.name}<DevFlag>placeholder review</DevFlag></p>
-                  <p className="text-mist">{r.service}, {r.area}</p>
+                  <p className="mt-3 text-lg font-semibold">{r.name}{r.placeholder && <DevFlag>placeholder review</DevFlag>}</p>
+                  {r.detail && <p className="text-mist">{r.detail}</p>}
                 </div>
                 <blockquote className="max-w-3xl text-xl leading-snug md:text-2xl">&ldquo;{r.text}&rdquo;</blockquote>
               </Reveal>

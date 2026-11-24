@@ -157,11 +157,12 @@ export const workPhotos = [
   { src: "", alt: "Pre-purchase inspection of an SUV", caption: "Pre-purchase inspection · Audi" },
 ];
 
-// PLACEHOLDER reviews: replace with real ones (Google / TikTok / Instagram).
-export const reviews = [
-  { name: "Customer name", service: "Battery service", area: "Los Angeles", text: "Placeholder: a real review about Rich showing up the same day." },
-  { name: "Customer name", service: "Brake service", area: "Santa Monica", text: "Placeholder: a real review about honest pricing and clear explanations." },
-  { name: "Customer name", service: "Pre-purchase inspection", area: "Pasadena", text: "Placeholder: a real review about how easy booking was." },
+// Reviews supplied by Josh. The last row is still a PLACEHOLDER: replace it with a real review (Google / TikTok / Instagram).
+export type Review = { name: string; text: string; detail?: string; placeholder?: boolean };
+export const reviews: Review[] = [
+  { name: "Marcus D.", text: "Fast mobile mechanic, showed up same day and fixed my battery at my house.", detail: "Battery service" },
+  { name: "Ashley T.", text: "Very professional and honest pricing. Booking was easy and smooth." },
+  { name: "Customer name", text: "Placeholder: a real review about how easy booking was.", detail: "Service, Area", placeholder: true },
 ];
 
 export const faqs = [
