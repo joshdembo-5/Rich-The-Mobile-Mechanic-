@@ -10,10 +10,10 @@ export const site = {
   phone: "(310) 555-0142",
   phoneHref: "tel:+13105550142",
   // PLACEHOLDER
-  email: "hello@richsmobileauto.com",
+  email: "richthemechanic2026@gmail.com",
   hours: "Mon–Sat · 7am–7pm", // PLACEHOLDER
-  instagram: "https://www.instagram.com/rich_the_mobile_mechanic",
-  instagramHandle: "@rich_the_mobile_mechanic",
+  instagram: "https://www.instagram.com/richardthemobilemechanic2026/",
+  instagramHandle: "@richardthemobilemechanic2026",
   tiktok: "https://www.tiktok.com/@richthemobilemechanic",
   // Where "Book an appointment" goes when the visitor is not on the home page form.
   bookingAnchor: "/#book",
